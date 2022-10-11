@@ -29,7 +29,6 @@ app.MapGet("/brew-coffee", async Task<object> (HttpContext context, IDistributed
 })
     .WithName("brew-coffee");
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
