@@ -1,6 +1,5 @@
 ﻿// All usings are used here globally
 
-global using CoffeeAPIMinimal.Extensions;
 global using CoffeeAPIMinimal.Interfaces;
 global using CoffeeAPIMinimal.Models;
 global using CoffeeAPIMinimal.Repository;
